@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
-const AddTodoForm = ({ onAdd }) => {
-  const [newTodo, setNewTodo] = useState('');
+interface AddTodoFormProps {
+  onAdd: (text: string) => void;
+}
+
+const AddTodoForm: React.FC<AddTodoFormProps> = ({ onAdd }) => {
+  const [newTodo, setNewTodo] = useState<string>('');
 
   const handleAddClick = () => {
     onAdd(newTodo);
@@ -14,7 +18,9 @@ const AddTodoForm = ({ onAdd }) => {
         type="text"
         placeholder="New todo"
         value={newTodo}
-        onChange={e => setNewTodo(e.target.value)}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+          setNewTodo(e.target.value)
+        }
       />
       <button onClick={handleAddClick}>Add</button>
     </div>

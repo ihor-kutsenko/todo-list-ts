@@ -1,6 +1,11 @@
 import React from 'react';
 
-const TodoItem = ({ todo, onDelete }) => {
+interface TodoItemProps {
+  todo: { id: number; text: string };
+  onDelete: (id: number) => void;
+}
+
+const TodoItem: React.FC<TodoItemProps> = ({ todo, onDelete }) => {
   return (
     <li>
       <p>{todo.text}</p>
