@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ihor-kutsenko/todo-list-ts/static/css/main.a2b5388f.css",
-    "main.js": "/ihor-kutsenko/todo-list-ts/static/js/main.fc0cdcac.js",
-    "index.html": "/ihor-kutsenko/todo-list-ts/index.html",
-    "main.a2b5388f.css.map": "/ihor-kutsenko/todo-list-ts/static/css/main.a2b5388f.css.map",
-    "main.fc0cdcac.js.map": "/ihor-kutsenko/todo-list-ts/static/js/main.fc0cdcac.js.map"
+    "main.css": "/todo-list-ts/static/css/main.a2b5388f.css",
+    "main.js": "/todo-list-ts/static/js/main.fc0cdcac.js",
+    "index.html": "/todo-list-ts/index.html",
+    "main.a2b5388f.css.map": "/todo-list-ts/static/css/main.a2b5388f.css.map",
+    "main.fc0cdcac.js.map": "/todo-list-ts/static/js/main.fc0cdcac.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b5388f.css",
