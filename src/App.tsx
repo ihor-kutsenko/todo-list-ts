@@ -4,7 +4,7 @@ import TodoItem from './Components/TodoItem';
 import AddTodoForm from './Components/AddTodoForm';
 import './App.css';
 
-interface Todo {
+export interface Todo {
   id: number;
   text: string;
 }
