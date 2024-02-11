@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Todo } from '../App';
+import { Todo } from '../todoSlice';
 
 interface TodoItemProps {
   // todo: { id: number; text: string };
